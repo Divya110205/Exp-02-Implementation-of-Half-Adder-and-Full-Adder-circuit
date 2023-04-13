@@ -38,17 +38,30 @@ If the output is 1, then the led glows.
 Program:
 /*
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: A.DIVYA
+RegisterNumber:  212222230034
 */
 Logic symbol & Truthtable
 RTL realization
 
 ### Output:
 ### RTL
+HALFADDER
+![Screenshot (38)](https://user-images.githubusercontent.com/119404855/231665587-1ea70b6a-a73b-478e-843f-bc0de9ef710c.png)
+
+FULLADDER
+![Screenshot (39)](https://user-images.githubusercontent.com/119404855/231665660-e8e13765-d0d9-40e8-9e71-b4920c79dff4.png)
+
 ### TIMING DIAGRAM
+HALFADDER
+
+
+FULLADDER
+![out](https://user-images.githubusercontent.com/119404855/231665888-35b5fe2f-79a0-4f1e-947d-5c787165e607.png)
 
 
 ### TRUTH TABLE 
 
+
 ### Result:
+The experiment for halfadder and fulladder is completed successfully.
