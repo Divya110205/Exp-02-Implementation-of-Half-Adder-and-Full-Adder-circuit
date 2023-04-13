@@ -55,12 +55,12 @@ FULLADDER
 ### TIMING DIAGRAM
 HALFADDER
 
-
 FULLADDER
 ![out](https://user-images.githubusercontent.com/119404855/231665888-35b5fe2f-79a0-4f1e-947d-5c787165e607.png)
 
 
 ### TRUTH TABLE 
+![WhatsApp Image 2023-04-13 at 11 01 10 AM](https://user-images.githubusercontent.com/119404855/231666431-a20b4f80-51ae-492c-971a-e9e22c435f5b.jpeg)
 
 
 ### Result:
