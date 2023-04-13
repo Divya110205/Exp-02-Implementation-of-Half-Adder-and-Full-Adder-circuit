@@ -54,6 +54,8 @@ FULLADDER
 
 ### TIMING DIAGRAM
 HALFADDER
+![sch](https://user-images.githubusercontent.com/119404855/231672581-2d7d03e7-65f4-410b-9ed1-eeb561762712.png)
+
 
 FULLADDER
 ![out](https://user-images.githubusercontent.com/119404855/231665888-35b5fe2f-79a0-4f1e-947d-5c787165e607.png)
