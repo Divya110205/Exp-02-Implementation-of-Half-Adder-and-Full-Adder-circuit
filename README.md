@@ -36,34 +36,45 @@ Switch ON the main switch
 If the output is 1, then the led glows.
 ### 
 Program:
+## HALF ADDER
+module ha(a,b,sum,carry);
+input a,b;
+output sum,carry;
+xor (sum,a,b);
+and (carry,a,b);
+endmodule
+
+## FULL ADDER
+module fa(a,b,c,sum,carry);
+input a,b,c;
+output sum,carry;
+assign sum=((a^b)^c);
+assign carry=((a&b)|(b&c)|(c&a));
+endmodule
+
 /*
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 Developed by: A.DIVYA
 RegisterNumber:  212222230034
 */
-Logic symbol & Truthtable
-RTL realization
 
 ### Output:
 ### RTL
-HALFADDER
-![Screenshot (38)](https://user-images.githubusercontent.com/119404855/231665587-1ea70b6a-a73b-478e-843f-bc0de9ef710c.png)
+## HALFADDER
+![ha rtl](https://github.com/Divya110205/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119404855/18ac3387-c75b-4a62-b71f-6c53bbc4b6fe)
 
-FULLADDER
-![Screenshot (39)](https://user-images.githubusercontent.com/119404855/231665660-e8e13765-d0d9-40e8-9e71-b4920c79dff4.png)
+## FULLADDER
+![fa rtl](https://github.com/Divya110205/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119404855/9218c6ef-7dfa-4e81-87f3-68b4418765d7)
 
 ### TIMING DIAGRAM
-HALFADDER
-![sch](https://user-images.githubusercontent.com/119404855/231672581-2d7d03e7-65f4-410b-9ed1-eeb561762712.png)
+## HALFADDER
+![ha td](https://github.com/Divya110205/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119404855/c2ec4719-9e68-4a88-9543-0a593f47f8ba)
 
-
-FULLADDER
-![out](https://user-images.githubusercontent.com/119404855/231665888-35b5fe2f-79a0-4f1e-947d-5c787165e607.png)
-
+## FULLADDER
+![fa td](https://github.com/Divya110205/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119404855/3b034a41-88c6-4d52-8913-1647048fe108)
 
 ### TRUTH TABLE 
-![WhatsApp Image 2023-04-13 at 11 01 10 AM](https://user-images.githubusercontent.com/119404855/231666431-a20b4f80-51ae-492c-971a-e9e22c435f5b.jpeg)
-
+![tt](https://github.com/Divya110205/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/119404855/8b15e138-0784-47b3-84f4-7ed3a5f4176b)
 
 ### Result:
 The experiment for halfadder and fulladder is completed successfully.
